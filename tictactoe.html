@@ -1,0 +1,60 @@
+<!-- Anthony D'Agostino tic tac toe html code
+    2/23/21. Front end code for tic tac toe game
+-->
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+
+            td{
+                border: 3px solid black;
+                font-size:60px;
+                height: 70px;
+                width: 80px;
+                text-align:center;
+            }
+            .highlight {
+                background-color: rgb(187, 187, 187);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="p-3 mb-2 bg-primary text-white jumbotron" id="div1">
+            <h1 class="text-center">Tic-Tac-Toe</h1>
+            <hr class="my-4">
+            <h3 id="player">Player X's Turn</h3>
+        </div>
+        
+        <table style="margin:auto">
+            <tr>
+                <td id="11"></td>
+                <td id="12"></td>
+                <td id="13"></td>
+            </tr>
+            <tr>
+                <td id="21"></td>
+                <td id="22"></td>
+                <td id="23"></td>
+            </tr>
+            <tr>
+                <td id="31"></td>
+                <td id="32"></td>
+                <td id="33"></td>
+            </tr>
+        </table>
+    
+        <script src="js/tictactoe.js"></script>
+                
+    </body>
+</html>
+            
